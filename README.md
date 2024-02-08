@@ -1,4 +1,5 @@
 Setup de IP:
+
     -- setup do ip adress e do gateway
     -- win+r "control netconnections"
     -- import pyautogui
