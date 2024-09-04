@@ -1,9 +1,7 @@
-Setup de IP:
+Projeto Desenvolvido para monitoramento de parâmetros de teste para equipamento FCT, a aplicação consiste em monitorar e intervir em parâmetros que estiverem divergentes do estabelecido.
 
-    -- setup do ip adress e do gateway
-    -- win+r "control netconnections"
-    -- import pyautogui
-    -- pyautogui.moveTo(x, y, duration); pyautogui.moveRel(x, y, duration)
-    -- para mapear os pontos, pyautogui.displayMousePosition() no terminal
-    -- lembrando q no python " ; " indica encadeamento de ações
-    -- pyautogui.typewrite(string, duration) consultar pyautogui.KEYBOARD-KEYS para a lista de comandos que o teclado realiza.
+    -Verificar e alterar endereço IP de servidor NTP
+    -Sincronizar periodicamente o horário da máquina com o horário do servidor
+    -Enviar resgistro da máquina e do momento de sincronização
+    -Interferir caso haja alteração dos parâmetros estabelecidos
+    -Não prejudicar os ciclos de teste
